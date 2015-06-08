@@ -11,6 +11,7 @@ exports.createUser=function(req,res,next){
             res.status(500);
             res.json(err)
         }else{
+            console.log('result'+userDetils);
             res.json(userDetils)             
         }
     })
