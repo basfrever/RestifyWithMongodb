@@ -1,3 +1,4 @@
 var mongoose = require('mongoose')
+//Establishing connection with mongodb
 mongoose.connect('mongodb://localhost/RestifyData');
-require('./../api/userDetails.js')
+require('./../model/userDetails.js')
